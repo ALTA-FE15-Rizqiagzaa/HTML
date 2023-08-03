@@ -1,0 +1,107 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(bg-img.png);
+    background-size: cover;
+}
+
+.homepage{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo img{
+    width: 120px;
+    font-weight: bold;
+    float: left;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.layout_1{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    height: max-content;
+    
+}
+
+.layout_1 .shape{
+    margin: 300px;
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    background:url(matthew-hamilton-tNCH0sKSZbA-unsplash.jpg);
+    background-size: cover;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: blue;
+    width: 100%;
+    line-height: 50px;
+}
